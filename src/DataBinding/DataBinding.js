@@ -1,4 +1,5 @@
 import React from 'react'
+import DatablingdingClassComponent from './DatablingdingClassComponent';
 
 export default function DataBinding() {
     const title = 'CyberSoft';
@@ -22,20 +23,8 @@ export default function DataBinding() {
     }
     return (
         <div>
-            <h3> Datablinding</h3>
-            <p id="title" className="title display-4">{title}</p>
-            <img src={imgsrc} width="200" />
-            <input className="form-control w-25" value={title} />
-            <h3>Thong tin sinh vien</h3>
-            <div className="card text-dark">
-                <img className="card-img-top" src={sinhVien.hinhAnh} style={{width:200, height:200}} />
-                    <div className="card-body">
-                        <h4 className="card-title">{sinhVien.maSV}</h4>
-                        <p className="card-text">{sinhVien.hinhAnh}</p>
-                    </div>
-            </div>
-            <hr></hr>
-            {renderImg()}
+           <DatablingdingClassComponent/>
+            {/* {renderImg()} */}
         </div>
     )
 }

@@ -1,16 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-import DemoFunctionComponents from './Components/DemoFunctionComponents';
-import DemoReactClassComponent from './Components/DemoReactClassComponent';
-import BaiTapLayout from './Components/BaiTapLayout/BaiTapLayout';
-import Header from './Components/BaiTapLayout/Header';
-import DataBinding from './DataBinding/DataBinding';
+import logo from "./logo.svg";
+import "./App.css";
+import DemoFunctionComponents from "./Components/DemoFunctionComponents";
+import DemoReactClassComponent from "./Components/DemoReactClassComponent";
+import BaiTapLayout from "./Components/BaiTapLayout/BaiTapLayout";
+import Header from "./Components/BaiTapLayout/Header";
+import DataBinding from "./DataBinding/DataBinding";
+import HandleEvent from "./Components/HandleEvent/HandleEvent";
+import DemoState from "./Components/DemoState/DemoState";
+import BaiTapChonXe from "./Components/DemoState/BaiTapChonXe/BaiTapChonXe";
+import RenderWithMap from "./Components/DemoState/RenderWithMap/RenderWithMap";
 
 function App() {
   return (
     <div className="App">
-      {/* <BaiTapLayout /> */}
-      <DataBinding />
+      <div className="container-fluid">
+        {/* <BaiTapLayout /> */}
+        {/* <DataBinding /> */}
+        {/* <HandleEvent /> */}
+        {/* <DemoState /> */}
+        {/* <BaiTapChonXe /> */}
+        <RenderWithMap/>
+      </div>
     </div>
   );
 }
