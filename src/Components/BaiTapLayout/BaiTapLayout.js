@@ -9,10 +9,10 @@ export default class BaiTapLayout extends Component {
     render() {
         return (
             <div>
-                <Header />
+                {/* <Header />
                 <Banner />
                 <Smartphone />
-                <Laptop />
+                <Laptop /> */}
             </div>
         )
     }
