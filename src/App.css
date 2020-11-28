@@ -1,0 +1,55 @@
+.content{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.glass__model{
+    position: relative;
+}
+.glass__model__glass{
+    position: absolute;
+    width: 100%;
+    left: 20%;
+    top: 27%;
+    transform: translate(0%,-22%);
+}
+.glass__model__glass img{
+    
+    width: 60%;
+}
+.content__nav{
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.384);
+    justify-content: center;
+    text-align: center;
+}
+.content__glass{
+    padding: 50px 0;
+}
+.content__nav h3{
+    line-height: 100px;
+    color: white;
+}
+.glass__item {
+    background-color: #000000b0;
+    text-align: center;
+    cursor: pointer;
+}
+.glass__item .item__cover{
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+}
+.glass__item img{
+    max-width: 100%;
+}
+.glass__model__text{
+    position: absolute;
+    width: 92.2%;
+    padding: 10px;
+    bottom: 0;
+    background-color: #0e3c3cad;
+}
+.glass__model__text h3, .glass__model__text p{
+    color: white;
+}

@@ -7,25 +7,26 @@ export default class RenderWithMap extends Component {
     { id: 3, name: "IPhone XS", price: 3000 },
     { id: 4, name: "IPhone 8", price: 4000 },
   ];
-  renderProduct = () => {
-    let arrJSX = [];
-    for (let i in this.products) {
-      let product = this.products[i];
-      let jsxProduct = (
-        <div>
-          <div className="card">
-            <img className="card-img-top" src="http://picsum.photos/200" alt />
-            <div className="card-body">
-              <h4 className="card-title">{product.name}</h4>
-              <p className="card-text">{product.price}</p>
-            </div>
-          </div>
-        </div>
-      );
-      arrJSX.push(jsxProduct);
-    }
-    return arrJSX;
-  };
+  // renderProduct = () => {
+  //   let arrJSX = [];
+  //   for (let i in this.products) {
+  //     let product = this.products[i];
+  //     let jsxProduct = (
+  //       <div>
+  //         <div className="card">
+  //           <img className="card-img-top" src="http://picsum.photos/200" alt />
+  //           <div className="card-body">
+  //             <h4 className="card-title">{product.name}</h4>
+  //             <p className="card-text">{product.price}</p>
+  //           </div>
+  //         </div>
+  //       </div>
+  //     );
+  //     arrJSX.push(jsxProduct);
+  //   }
+  //   return arrJSX;
+  // };
+  
   renderProductWithMap = () => {
     let constArrJSX = this.products.map((product, index) => {
       return (
